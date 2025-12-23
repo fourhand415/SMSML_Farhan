@@ -1,0 +1,22 @@
+artifact_path: file:D:/ITS/Pelatihan Dicoding/SMSML_Farhan/Membangun_model/mlruns/1/models/m-22e2be43093d47e58e842b21a37971c0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.8.0
+model_id: m-22e2be43093d47e58e842b21a37971c0
+model_size_bytes: 628208
+model_uuid: m-22e2be43093d47e58e842b21a37971c0
+prompts: null
+run_id: 2b4bb4cb0c504fd289f9be4a3854d317
+utc_time_created: '2025-12-23 06:52:27.645280'
